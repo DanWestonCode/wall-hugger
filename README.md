@@ -24,7 +24,7 @@ To start the wall hug the player must approach a wall and "push" into it:
 
 <p>
    <figure style="display: inline-block; margin: 10px;">
-    <img src="ReadmeContent/Outside.png"/>
+    <img src="ReadmeContent/outside.png"/>
     <figcaption><b>Outside ApproachingWallTolerance</b></figcaption>
   </figure>
 </p>
