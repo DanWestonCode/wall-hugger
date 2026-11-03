@@ -15,7 +15,7 @@ To start the wall hug the player must approach a wall and "push" into it:
 - Detect collision with obstacle using `OnComponentHit`.
 - Determine if Character is facing the wall within the given tolerance - `PWallHugComponent::ApproachingWallTolerance`
 
-<div align="center">
+<p>
   <figure style="display: inline-block; margin: 10px;">
     <img src="ReadmeContent/inside.png" width="300" />
     <figcaption><b>Inside ApproachingWallTolerance</b></figcaption>
@@ -23,8 +23,8 @@ To start the wall hug the player must approach a wall and "push" into it:
   <figure style="display: inline-block; margin: 10px;">
     <img src="ReadmeContent/outside.png" width="300" />
     <figcaption><b>Outside of ApproachingWallTolerance</b></figcaption>
-  </figure>
-</div>
+  </figure> 
+</p>
 
 - Using the collision normal, create a rotation for the character to face away from the colliding obstacle.
 - Calculate the perpendicular axis for "sliding" the character along the surface (`UWHWallHugComponent::ProcessBeginWallHug`).
